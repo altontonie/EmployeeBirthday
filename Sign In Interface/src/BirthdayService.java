@@ -14,6 +14,7 @@ public class BirthdayService {
 	
 	
 	public void sendGreeting(String date) {
+		
 		try {
 			Scanner read = new Scanner(file);
 			while(read.hasNextLine()) {
